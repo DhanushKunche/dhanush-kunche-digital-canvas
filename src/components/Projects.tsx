@@ -5,38 +5,40 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: 'Web-Based Patient Records Management Application',
+      title: 'Domain-Based Quiz and Knowledge Evaluation Web Application',
       role: 'Designer & Developer',
-      duration: 'Nov 2023 – Present',
-      description: 'Developed a secure web application to manage patient records, enabling doctors to retrieve medical data efficiently during consultations. Features include secure authentication, real-time data management, and responsive design.',
-      techStack: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Firebase'],
+      duration: '2024.02 – Present',
+      description: 'Developed an interactive quiz web application using JavaScript that enables students to evaluate and enhance their knowledge across 10+ domains. Implemented a dynamic question generator and result visualization using charts, improving learning engagement by 40%.',
+      techStack: ['JavaScript', 'HTML', 'CSS', 'Chart.js'],
       ide: 'VS Code',
       features: [
-        'Secure patient data management',
-        'Real-time data synchronization',
-        'Responsive web design',
-        'Doctor authentication system',
-        'Medical history tracking'
+        'Dynamic question generator across 10+ domains',
+        'Result visualization using charts',
+        'Real-time feedback and performance tracking',
+        'Instant identification of strengths and weaknesses',
+        'Optimized for 100+ concurrent users',
+        '30% improved response time'
       ],
       status: 'In Progress',
-      type: 'Full-Stack Web Application'
+      type: 'Educational Web Application'
     },
     {
-      title: 'Quiz Application',
+      title: 'Dynamic Tic Tac Toe Game (Java)',
       role: 'Designer & Developer',
-      duration: 'Jun 2024',
-      description: 'Developed a secure web application to help students analyze their skills based on different skill sets. The application provides interactive quizzes with real-time scoring and detailed performance analytics.',
-      techStack: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Firebase'],
+      duration: '2024',
+      description: 'Implemented OOP concepts (encapsulation, abstraction, polymorphism) to ensure modular and maintainable code, improving readability by 30%. Designed efficient queue-based logic to manage player moves, reducing redundant checks by 25%.',
+      techStack: ['Java', 'Java Collections', 'OOP'],
       ide: 'VS Code',
       features: [
-        'Interactive quiz interface',
-        'Real-time scoring system',
-        'Performance analytics',
-        'Skill assessment categories',
-        'Progress tracking'
+        'OOP implementation with encapsulation, abstraction, polymorphism',
+        'Queue-based logic for player move management',
+        'Real-time board updates and validation',
+        '100% error-free move handling',
+        '25% reduction in redundant checks',
+        '20% boost in execution efficiency'
       ],
       status: 'Completed',
-      type: 'Educational Web Application'
+      type: 'Java Desktop Application'
     }
   ];
 
